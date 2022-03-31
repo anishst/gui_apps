@@ -1,0 +1,48 @@
+# **************************************************************************************************************************
+# This file is used to specify the files/folder you don't want to get uploaded to the Version Control system: GitHub
+# **************************************************************************************************************************
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Pipenv files
+Pipfile
+Pipfile.lock
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+assets/
+
+# pycharm folders to ignore
+.idea/
+DataFiles/
+
+
+# file extensions to ignore
+*.log
+*.png
+*.jpeg
+*.jpg
+*.sqlite
+*.db
+*.mp4
+*.m4v
+*.mp3
+
+# files to ignore
+*_credentials.json
+logins/
+logs
+.env
+python_virtual_env_creator.bat
